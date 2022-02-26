@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFinder</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts/index.js" type="module"></script>
+    
+
+</head>
+<body>
+    <header>
+        <div id="flex-container">
+            <img src="images/logo.png">
+            <h1 id="head-title">
+                Não sabe o que assistir?
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="container" id="container">
+        
+                
+        </div>
+        <div class="container">
+            <div class="filtro">
+
+                        <label for="Filtro">Filtrar por:</label>
+                        <select name="Filtro" id="select" >
+                            <option value="new">Mais novos</option>
+                            <option value="popularity">Popularidade</option>
+                            <option value="vote">Mais votados</option>
+                        </select>
+
+            </div>
+            
+            <button id="button" >
+                           <img src="images/logo.png" alt="Encontrar Filme">
+                           Encontrar Filme
+                       </button> 
+               <p id="help">
+                   Clique em "Encontrar Filme" que traremos informações de algum filme para você assistir hoje.
+               </p>
+        </div>
+       
+    </main>
+</body>
+</html>
