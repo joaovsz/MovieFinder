@@ -1,6 +1,6 @@
 const key = '400dd5c32ca30c28cb503d75e23d8055'
 const filters = document.getElementById('select').value
-const url = `http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${key}&language=pt-BR`
+const url = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${key}&language=pt-BR`
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
 const movie = document.getElementById("container")
 document.addEventListener('DOMContentLoaded',() => {
