@@ -1,16 +1,13 @@
 html {
   min-height: 100%;
-  background-image: radial-gradient(
-      at 42% 43%,
-      hsla(28, 100%, 74%, 1) 0,
-      transparent 50%
-    ),
-    radial-gradient(at 97% 28%, hsla(189, 100%, 56%, 1) 0, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(355, 85%, 93%, 1) 0, transparent 50%),
-    radial-gradient(at 77% 52%, hsla(340, 100%, 76%, 1) 0, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
-    radial-gradient(at 19% 51%, hsla(242, 100%, 70%, 1) 0, transparent 50%),
-    radial-gradient(at 40% 27%, hsla(343, 100%, 76%, 1) 0, transparent 50%);
+  background-image:#99f8ff;background-image:  
+radial-gradient(at 89% 9%, hsla(344,97%,76%,1) 0, transparent 46%),  
+radial-gradient(at 70% 80%, hsla(338,86%,71%,1) 0, transparent 43%),  
+radial-gradient(at 88% 14%, hsla(267,83%,61%,1) 0, transparent 50%),  
+radial-gradient(at 26% 60%, hsla(222,74%,63%,1) 0, transparent 54%),  
+radial-gradient(at 38% 38%, hsla(203,96%,69%,1) 0, transparent 52%),  
+radial-gradient(at 96% 50%, hsla(43,76%,77%,1) 0, transparent 43%),  
+radial-gradient(at 48% 80%, hsla(57,94%,72%,1) 0, transparent 54%);
   background-repeat: no-repeat;
   background-size: contain;
 }
