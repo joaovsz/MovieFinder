@@ -1,10 +1,3 @@
-const PORT= 3000
-
-
-app.listen(PORT, ()=>{
-    console.log(`listening on port ${PORT}`)
-})
-
 
 const key = '400dd5c32ca30c28cb503d75e23d8055'
 let pages = [1,2,3,4,5,6,7,8,9,10,11,12,13,14]
